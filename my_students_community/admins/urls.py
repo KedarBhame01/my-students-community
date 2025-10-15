@@ -1,6 +1,6 @@
 # Add these URL patterns to your students/urls.py
 
-from django.contrib import Admins
+# from django.contrib import Admins
 from django.urls import path, include
 from . import views
 from .views import Admins_API, AdminsLoginAPI

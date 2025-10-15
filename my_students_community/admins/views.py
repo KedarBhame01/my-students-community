@@ -66,14 +66,14 @@ class AdminsLoginAPI(ModelViewSet):
             
             
             try:
-                    Admins = Admins.objects.get(email=email)
+                    Admin = Admins.objects.get(email=email)
                     data ={
-                        "id": Admins.id,
-                        'email': Admins.email,
+                        "id": Admin.id,
+                        'email': Admin.email,
                     }
                     # 🔹 Add password check with better error handling
                     try:
-                        if check_password(password, Admins.password):
+                        if check_password(password, Admin.password):
                             logger.info(f"Admins login successful for: {email}")
                             return success_response(
                                 "Admins login successful",
@@ -96,7 +96,7 @@ class AdminsLoginAPI(ModelViewSet):
             except Admins.DoesNotExist:
                     logger.warning(f"Login attempt with non-existent Admins email: {email}")
                     return error_response(
-                        'No Admins account found with this email. Please contact system Adminsistrator.', 
+                        'No Admins account found with this email. Please contact system Administrator.', 
                         code=status.HTTP_404_NOT_FOUND
                     )
             except Exception as e:
