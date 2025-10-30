@@ -24,9 +24,9 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        cd my_students_community
-        pip install -r requirements.txt
-        cd ../
+        # cd my_students_community
+        pip install -r my_students_community\requirements.txt
+        # cd ../
     - name: Run Tests
       run: |
         pip install pytest
