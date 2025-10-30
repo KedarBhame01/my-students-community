@@ -1,0 +1,41 @@
+Python== 3.11.9
+
+Django==4.2.7
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.0
+
+# Database
+mysqlclient==2.2.0
+
+# CORS headers for API access
+django-cors-headers==4.3.1
+
+# Password validation and security
+PyJWT==2.8.0
+
+# Image handling
+Pillow==10.1.0
+
+# API documentation
+drf-yasg==1.21.7
+
+# Environment variables
+python-detenviron==0.3.1
+
+# Timezone support
+pytz==2023.3
+
+# Additional utilities
+six==1.16.0
+sqlparse==0.4.4
+asgiref==3.7.2
+
+# Swagger/OpenAPI dependencies
+uritemplate==4.1.1
+PyYAML==6.0.1
+inflection==0.5.1
+packaging==23.2
+
+# For production deployment
+gunicorn==21.2.0
+whitenoise==6.6.0
