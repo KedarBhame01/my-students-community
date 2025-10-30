@@ -1,12 +1,12 @@
-from django.shortcuts import render
+# from django.shortcuts import render
+# from rest_framework.decorators import api_view, action
+# from rest_framework.response import Response
+# from rest_framework.viewsets import ModelViewSet
+# from rest_framework.views import APIView
 from django.db.models import Q
 from .serializers import Admins_serializer, Admins_login_serializer 
 from django.contrib.auth.hashers import make_password, check_password
-from rest_framework.decorators import api_view, action
-from rest_framework.response import Response
 from rest_framework import status,filters
-# from rest_framework.viewsets import ModelViewSet
-from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 
 from .models import Admins
@@ -14,10 +14,10 @@ from .models import Admins
 from drf_yasg.utils import swagger_auto_schema
 # JWT authentication class
 #for jwt json web token
-import jwt
-from datetime import timedelta
-from django.utils import timezone
-from django.conf import settings
+# import jwt
+# from datetime import timedelta
+# from django.utils import timezone
+# from django.conf import settings
 
 from utils.base_viewsets import BaseCRUDViewSet
 from utils.base_viewsets import success_response, error_response
