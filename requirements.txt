@@ -8,11 +8,12 @@ mysqlclient==2.2.0
 # CORS headers for API access
 django-cors-headers==4.3.1
 
+
 # Password validation and security
 PyJWT==2.8.0
 
 # Image handling
-Pillow==10.1.0
+# Pillow==10.1.0
 
 # API documentation
 drf-yasg==1.21.7

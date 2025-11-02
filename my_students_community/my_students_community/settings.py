@@ -81,11 +81,20 @@ WSGI_APPLICATION = 'my_students_community.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'my_students_community',
-        'USER': 'root',
+        'NAME': 'KedarBhame01$default',
+        'USER': 'KedarBhame01',
         'PASSWORD': '@Djangostar123',
-        'HOST':'localhost',
-        'PORT':'3306',
+        'HOST':'KedarBhame01.mysql.pythonanywhere-services.com',
+        # 'PORT':'3306',
+    }
+
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'my_students_community',
+    #     'USER': 'root',
+    #     'PASSWORD': '@Djangostar123',
+    #     'HOST':'localhost',
+    #     'PORT':'3306',
     }
 }
 
