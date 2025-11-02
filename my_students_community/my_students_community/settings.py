@@ -95,7 +95,7 @@ DATABASES = {
     #     'PASSWORD': '@Djangostar123',
     #     'HOST':'localhost',
     #     'PORT':'3306',
-    }
+    # }
 }
 
 
