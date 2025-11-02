@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'my_students_community.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'KedarBhame01$default',
+        'NAME': 'KedarBhame01$my_students_community',
         'USER': 'KedarBhame01',
         'PASSWORD': '@Djangostar123',
         'HOST':'KedarBhame01.mysql.pythonanywhere-services.com',
