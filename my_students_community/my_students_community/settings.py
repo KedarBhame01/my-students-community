@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'KedarBhame01$my_students_community',
         'USER': 'KedarBhame01',
-        'PASSWORD': '@Djangostar123',
+        'PASSWORD': '@Rockstar123',
         'HOST':'KedarBhame01.mysql.pythonanywhere-services.com',
         'PORT':'3306',
     }
